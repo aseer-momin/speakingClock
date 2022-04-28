@@ -1,14 +1,5 @@
-# robotApocalypse
-Use MongoDB database for this project.
-Below are the configuration for the MongoDb db.
-I have commented this code in application properties file, you just have to uncomment and add the credentials of your mongoDb database.
-
-spring.data.mongodb.authentication-database="your authentic db name"
-spring.data.mongodb.database=your db name
-spring.data.mongodb.host=your host name
-spring.data.mongodb.password=your password
-spring.data.mongodb.port=your mongoDb port
-spring.data.mongodb.username=your username of mongoDb
-
-I have implemented swagger for your reference.
-swagger url: http://localhost:{ port which you have added in application properties file}/swagger-ui.html#/
+# Speaking Clock
+I have set the server port to 9491 for local and 9490 to prod.
+You can change it as per your convinience.
+I have also implemented Swagger for api reference.
+Thank you.
